@@ -1,0 +1,50 @@
+---
+abstract: 'change directory temporarily for a limited scope'
+author:
+  - 'David Golden <dagolden@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+  File::Basename: 0
+  File::Find: 0
+  File::Spec::Functions: 0
+  List::Util: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300031, CPAN::Meta::Converter version 2.120921'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: File-pushd
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+    - corpus
+  package:
+    - DB
+provides:
+  File::pushd:
+    file: lib/File/pushd.pm
+    version: 1.005
+requires:
+  Carp: 0
+  Cwd: 0
+  Exporter: 0
+  File::Path: 0
+  File::Spec: 0
+  File::Temp: 0
+  overload: 0
+  perl: 5.006
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/dagolden/file-pushd/issues
+  homepage: https://metacpan.org/release/File-pushd
+  repository: git://github.com/dagolden/file-pushd.git
+version: 1.005
+x_contributors:
+  - 'Diab Jerius <djerius@cfa.harvard.edu>'
