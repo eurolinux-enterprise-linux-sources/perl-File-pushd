@@ -1,6 +1,6 @@
 Name:           perl-File-pushd
 Version:        1.005
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Change directory temporarily for a limited scope
 License:        ASL 2.0
 Group:          Development/Libraries
@@ -58,6 +58,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.005-2
+- Mass rebuild 2013-12-27
+
 * Mon Mar 25 2013 Petr Šabata <contyk@redhat.com> - 1.005-1
 - 1.005 bump
 
